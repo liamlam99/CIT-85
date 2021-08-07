@@ -1,0 +1,22 @@
+body {
+  font-size: 20px;
+}
+
+.first-30-things {
+  background-color: #ffe6e6;
+}
+#first-of-first-things {
+  color: #ff2626;
+}
+.middle-40-things {
+  background-color: #ffc947;
+}
+#first-of-middle-things {
+  color: #185adb;
+}
+.last-30-things {
+  background-color: #eeebdd;
+}
+#first-of-last-things {
+  color: #a6f0c6;
+}
