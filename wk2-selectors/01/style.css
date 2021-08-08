@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.prev:link,
+.prev:visited {
+  background-color: #ff4848;
+  color: #fff;
+}
+.prev:active,
+.prev:hover {
+  background-color: #c2ffd9;
+  color: #000;
+}
+.next:link,
+.next:visited {
+  background-color: #c2ffd9;
+  color: #000;
+}
+.next:active,
+.next:hover {
+  background-color: #ff4848;
+  color: #fff;
+}
