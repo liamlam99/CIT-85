@@ -1,0 +1,35 @@
+.ten-things li:first-child {
+  font-weight: bold;
+}
+
+.ten-things li:last-child {
+  font-style: italic;
+}
+
+.ten-things li:nth-child(odd) {
+  color: #ff4848;
+}
+.ten-things li:nth-child(even) {
+  background-color: #fde49c;
+}
+.ten-things li:nth-child(6) {
+  background-color: #000;
+  color: #fff;
+}
+article > p:only-child {
+  color: #ff4848;
+  font-weight: bold;
+  font-size: 30px;
+}
+.numbers {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  background-color: #fde49c;
+  width: 5vw;
+  border-radius: 200px;
+}
+
+.numbers:nth-child(5n + 2) {
+  background-color: #ff4848;
+}
