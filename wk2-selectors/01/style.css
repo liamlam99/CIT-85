@@ -14,6 +14,7 @@ a {
   text-decoration: none;
   padding: 20px;
   border-radius: 50px;
+  cursor: pointer;
 }
 
 .prev:link,
