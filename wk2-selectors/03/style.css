@@ -1,0 +1,15 @@
+.css-03 {
+  background-color: #ffdede;
+  height: 100vh;
+  width: auto;
+}
+h1::first-letter {
+  color: #f43b86;
+}
+p::first-letter {
+  color: #f43b86;
+}
+
+p::first-line {
+  font-weight: bold;
+}
