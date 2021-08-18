@@ -7,6 +7,27 @@
 body {
   font-size: 16px;
 }
+div {
+  height: auto;
+  width: 80%;
+  border: 0.05rem solid #ff6b6b;
+}
+h1 {
+  display: flex;
+  border: solid 0.3rem #ae00fb;
+  height: auto;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+}
+p {
+  display: flex;
+  align-items: center;
+  border: 0.05rem solid #000;
+  margin-top: 0.16rem;
+  height: 5%;
+  width: auto;
+}
 .section-author {
   font-family: sans-serif;
   font-size: 1.2rem;
@@ -16,6 +37,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100vw;
 }
 
 .author {
