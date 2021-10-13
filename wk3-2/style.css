@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 20vw;
+  height: 20vh;
+}
+
+.element {
+  width: 50px;
+  height: 100px;
+}
+
+.block {
+  display: block;
+  border: 2px solid black;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.color1 {
+  border: 2px solid red;
+  background-color: red;
+}
+
+.color2 {
+  border: 2px solid blue;
+  background-color: blue;
+}
+.color3 {
+  border: 2px solid green;
+  background-color: green;
+}
