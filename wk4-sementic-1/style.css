@@ -1,0 +1,130 @@
+/*
+--- Document 1 -----
+
+*/
+
+.container1 {
+  height: 100vh;
+  width: 80vw;
+}
+.section {
+  width: 50%;
+  display: inline-block;
+}
+.container1 > aside {
+  float: right;
+  width: 50%;
+  background-color: #f6d7a7;
+}
+
+.container1 > footer {
+  width: 100%;
+  text-align: center;
+}
+
+/*
+---Doument 2
+*/
+
+.container2 {
+  height: 100vh;
+  width: 90vw;
+}
+.container2 header {
+  text-align: center;
+}
+.container2 > nav li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 22.5%;
+}
+
+.container2 aside {
+  float: right;
+  background-color: #f6d7a7;
+  width: 40%;
+}
+.container2 article {
+  display: inline-block;
+  width: 50%;
+}
+
+.container2 footer {
+  text-align: center;
+}
+
+/*
+----- Document 3 -------
+*/
+.container3 {
+  width: 90vw;
+  height: 100vh;
+}
+
+.container3 h1 {
+  text-align: center;
+}
+
+.container3 li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 22.5%;
+}
+
+.container3 section {
+  background-color: #f6d7a7;
+}
+
+.container3 article {
+  background-color: #c8e3d4;
+}
+
+.container3 aside {
+  float: right;
+  width: 40%;
+  background-color: #1597e5;
+}
+
+.container3 footer {
+  text-align: center;
+  background-color: #9d84b7;
+}
+
+/* Document 4 */
+
+.container4 {
+  width: 90vw;
+  height: 100vh;
+}
+
+.container4 > header {
+  text-align: center;
+  background-color: #88e0ef;
+}
+.container4 > nav {
+  display: inline-block;
+  list-style: none;
+  background-color: #ffe699;
+  height: auto;
+}
+.container4 > article {
+  display: inline-block;
+  margin-left: 100px;
+  background-color: #3e7c17;
+}
+.container4 > article section {
+  background-color: #9d84b7;
+}
+.container4 aside {
+  float: right;
+  width: 30%;
+  background-color: #ffa400;
+}
+.container4 aside section {
+  background-color: #e02401;
+}
+
+.container4 > footer {
+  text-align: center;
+  background-color: #88e0ef;
+}
