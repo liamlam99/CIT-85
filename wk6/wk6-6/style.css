@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 700px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  border: 2px solid #000;
+}
+
+.sub-container {
+  height: 100%;
+  width: 80%;
+  border: 2px solid red;
+}
+
+.box {
+  display: flex;
+  text-align: center;
+}
+
+.one {
+  width: 20%;
+  background-color: #96c7c1;
+}
+.two {
+  height: 50%;
+
+  background-color: #eeebdd;
+}
+.three {
+  height: 50%;
+
+  background-color: #2f86a6;
+}
