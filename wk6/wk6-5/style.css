@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  width: 700px;
+  height: 500px;
+
+  justify-content: center;
+  flex-flow: row wrap;
+  border: 0.2rem solid red;
+}
+
+.box {
+  display: flex;
+}
+
+.one {
+  width: 50%;
+  background-color: #89b5af;
+}
+.two {
+  width: 50%;
+  background-color: #d8b6a4;
+}
+
+.three {
+  width: 30%;
+  background-color: #34be82;
+}
+
+.four {
+  width: 40%;
+  background-color: #2f86a6;
+}
+
+.five {
+  width: 30%;
+  background-color: #b91646;
+}
