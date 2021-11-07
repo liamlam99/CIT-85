@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 16px;
+  display: flex;
+}
+
+header {
+  width: 100%;
+  padding: 0.6rem;
+  background-color: #f9975d;
+  display: flex;
+  justify-content: center;
+}
+section {
+  display: flex;
+  justify-content: center;
+  padding: 0.6rem;
+  background-color: #2f86a6;
+  font-size: 1.25rem;
+}
+aside {
+  display: flex;
+  justify-content: center;
+  padding: 0.6rem;
+}
+
+.one {
+  background-color: #fbd148;
+}
+
+.two {
+  background-color: #e9a6a6;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #2fdd92;
+  padding: 0.6rem;
+}

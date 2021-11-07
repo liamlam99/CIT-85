@@ -1,0 +1,11 @@
+body {
+  flex-direction: column;
+}
+.one {
+  width: 50%;
+  float: left;
+}
+.two {
+  width: 50%;
+  float: right;
+}

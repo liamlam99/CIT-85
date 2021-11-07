@@ -1,0 +1,23 @@
+body {
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+}
+
+.one {
+  width: 25%;
+  float: left;
+
+  order: -1;
+}
+
+.two {
+  width: 25%;
+  float: right;
+}
+
+section {
+  width: 50%;
+}
