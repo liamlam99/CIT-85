@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+li {
+  list-style: none;
+  font-size: 1.25rem;
+  margin: 0.75rem;
+  color: #fff;
+}
+
+ul {
+  display: flex;
+  background-color: #96c7c1;
+}
