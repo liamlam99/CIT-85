@@ -1,0 +1,12 @@
+section {
+  color: red;
+}
+
+body {
+  flex-direction: column;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
