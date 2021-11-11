@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  display: flex;
+}
+
+.one {
+  background-color: #fbd148;
+  border: 4px solid #bc8cf2;
+  width: 100%;
+}
+
+.two {
+  background-color: #88e0ef;
+  border: 4px solid #000;
+  width: 20%;
+}
+.three {
+  width: 80%;
+  border: 4px solid #000;
+  background-color: #34be82;
+}
+.four {
+  width: 100%;
+  border: 4px solid red;
+  background-color: #bc8cf2;
+}

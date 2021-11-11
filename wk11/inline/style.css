@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 50vh;
+  width: 100vw;
+}
+.box {
+  display: inline-block;
+}
+.one {
+  height: 30%;
+  width: 100%;
+  background-color: #fbd148;
+  border: 4px solid #bc8cf2;
+}
+
+.two {
+  height: 40%;
+  width: 30%;
+  background-color: #88e0ef;
+  border: 4px solid #000;
+}
+.three {
+  height: 40%;
+  width: calc(70% - 4px);
+  border: 4px solid #000;
+  background-color: #34be82;
+}
+.four {
+  height: 30%;
+  width: 100%;
+  border: 4px solid red;
+  background-color: #bc8cf2;
+}
