@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+.circle {
+  width: 33%;
+  height: 33%;
+  background-color: #fff;
+  border-radius: 50%;
+  animation: color-change 3s infinite;
+}
+
+@keyframes color-change {
+  0% {
+    background-color: #009dae;
+  }
+  20% {
+    background-color: #71dfe7;
+  }
+  40% {
+    background-color: #c2fff9;
+  }
+  60% {
+    background-color: #ffe652;
+  }
+  80% {
+    background-color: #d06224;
+  }
+  100% {
+    background-color: #8a8635;
+  }
+}
