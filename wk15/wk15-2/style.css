@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  background-color: #000;
+}
+
+.circle {
+  width: 33%;
+  height: 33%;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 50%;
+  animation: color-change 3s infinite;
+}
+
+@keyframes color-change {
+  0% {
+    background-color: #009dae;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+  }
+  25% {
+    background-color: #71dfe7;
+    top: 0%;
+    left: 67%;
+    bottom: 0%;
+    right: 0%;
+  }
+  50% {
+    background-color: #c2fff9;
+    top: 67%;
+    left: 67%;
+    bottom: 0%;
+    right: 67%;
+  }
+  75% {
+    background-color: #ffe652;
+    top: 67%;
+    left: 0%;
+    bottom: 0%;
+    right: 67%;
+  }
+  100% {
+    background-color: #d06224;
+    top: 0%;
+    left: 0%;
+    bottom: 670%;
+    right: 67%;
+  }
+}
