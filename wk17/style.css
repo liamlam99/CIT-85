@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 16px;
+}
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+}
+/* ----------- NAVIGATION -------------- */
+a,
+li {
+  text-decoration: none;
+  list-style: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #94daff;
+  height: 8vh;
+}
+a {
+  cursor: pointer;
+}
+/* Logo */
+.logo {
+  margin-left: 1.5rem;
+  width: 9rem;
+  height: 100%;
+  position: relative;
+}
+
+/* NAVBAR */
+.nav__links {
+  display: flex;
+  justify-content: center;
+}
+
+.nav__links li {
+  margin: 0.75rem;
+}
+.nav__links a {
+  color: #9d5c0d;
+  position: relative;
+  padding: 0 8px;
+  font-size: 1.25rem;
+  letter-spacing: 0.125rem;
+}
+.nav__links a::after {
+  content: "";
+  position: absolute;
+  background-color: #c85c5c;
+  height: 0.2rem;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.4s;
+}
+
+.nav__links a:hover,
+.nav__links a:hover::after {
+  color: #c85c5c;
+  width: 100%;
+}
+/* Login Button */
+.sign {
+  width: 12rem;
+  font-size: 1.5rem;
+}
+
+.sign-in,
+.sign-up {
+  padding: 0.75rem;
+  margin-left: 0.4rem;
+  border-radius: 15%;
+}
+/* Sign in button */
+
+.sign-in,
+.sign-in a {
+  background-color: #fda65d;
+  color: #d1e8e4;
+  transition: 0.3s ease;
+}
+
+.sign-in:hover {
+  box-shadow: 5px 5px #fda65d;
+  transform: translateX(-3px);
+  transform: translateY(-3px);
+}
+/* Sign Up button */
+
+.sign-up,
+.sign-up a {
+  background-color: #d1e8e4;
+  color: #fda65d;
+  transition: 0.3s ease;
+}
+
+.sign-up:hover {
+  box-shadow: 5px 5px #d1e8e4;
+  transform: translateX(-3px);
+  transform: translateY(-3px);
+}
+section {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.intro {
+  background-image: url(img/patrick-hendry-jd0hS7Vhn_A-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.intro h1 {
+  margin: 0 2rem;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #f0e9d2;
+  letter-spacing: 0.125rem;
+  word-spacing: 0.2rem;
+}
+
+.intro button {
+  margin-top: 0.75rem;
+  padding: 1rem;
+  background-color: #fda65d;
+  color: #fff;
+  border-radius: 50px;
+  opacity: 0.7;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.intro button:hover {
+  transform: scale(110%);
+}
+/* ------------ Footer -------------- */
+
+footer {
+  display: flex;
+  background-color: #94daff;
+  width: 100vw;
+  height: 3vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  font-family: "Petemoss", serif;
+  letter-spacing: 0.125rem;
+}
+
+/* ------------------ Samples ----------------- */
+.samples {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+}
+.box img {
+  width: 50%;
+  height: 50%;
+}
+
+.sub-box {
+  display: inline-block;
+}
+
+.icon,
+h3 {
+  display: inline-block;
+}

@@ -1,0 +1,41 @@
+/* ---------- Logo Animation----------- */
+
+.logo {
+  background-color: #94daff;
+  position: absolute;
+  height: 100%;
+  background-color: #94daff;
+  /* background: url(img/8fe21a96b308428ba1c5ff3a5a9257b4.png);
+  background-size: auto;
+  background-position: -1rem; */
+  z-index: 100;
+  overflow: hidden;
+}
+
+.logo::before {
+  content: "";
+  position: absolute;
+  background: url(img/8fe21a96b308428ba1c5ff3a5a9257b4.png);
+  background-size: auto;
+  background-position: -1rem;
+  width: 100%;
+  height: 100%;
+}
+
+.logo::after {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  background-color: #94daff;
+  bottom: 0;
+  left: -50%;
+  border-radius: 50%;
+  animation: waving 5s ease-in-out alternate infinite;
+}
+
+@keyframes waving {
+  to {
+    transform: translateX(10%) translateY(-50%);
+  }
+}
